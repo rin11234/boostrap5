@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+.mt-50{
+
+    margin-top: 50px;
+}
+
+.mb-50{
+
+    margin-bottom: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+header .navbar{
+    background: url('https://i.pinimg.com/originals/95/aa/01/95aa010f24ce105b12756d472d476585.png')  ;
+    cursor: pointer;
+    
+    
+    
+}
+header .navbar-nav .nav-item{
+    padding: 10px 0;
+}
+header .navbar-nav .nav-item a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(32, 30, 30);
+    font-family: 500;
+}
+.header .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+header .navbar-nav .nav-item a:hover{
+    background-color: #1cc616;
+}
+header .header-right span{
+    color: red;
+    display: block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+header .header-right .phone_no{
+    font-size: 1.6rem;
+    color: rgb(220, 227, 35);
+}
+.c-item{
+    height: 550px;
+}
+.c-img{
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.underline {
+    background: red;
+    border: 1px solid red;
+    width: 200px;
+}
+.card img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    background-clip: border-box;
+    border: 1px solid #3333;
+    min-width: 0;
+    word-wrap: break-word;
+}
+.card-img-actions{
+    position: relative;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 2rem;
+}
+.card-img{
+    width: 350px;
+}
+.bg-cart {
+    background-color:orange;
+    color:#fff;
+}
+.zoominbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .zoominbox img {
+    transition: transform 0.3s ease;
+  }
+  
+  .zoominbox:hover img {
+    transform: scale(1.1);
+  }
+  
